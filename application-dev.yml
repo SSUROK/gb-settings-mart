@@ -3,3 +3,6 @@ spring:
   artemis:
     user: 'artemis'
     password: 'simetraehcapa'
+order:
+  changed:
+    queue: 'order-changed'
