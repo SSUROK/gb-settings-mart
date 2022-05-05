@@ -1,6 +1,6 @@
 gb.api.endpoint:
   base-uri: '127.0.0.1:8080'
-  login-sigin: '127.0.0.1:8081'
+  login-sigin: '127.0.0.1:8081/external'
 spring:
   artemis:
     user: 'artemis'
