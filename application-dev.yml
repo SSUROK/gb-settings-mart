@@ -1,8 +1,10 @@
-gb.api.endpoint.base-uri: '127.0.0.1:8080'
+gb.api.endpoint:
+  base-uri: '127.0.0.1:8080'
+  login-sigin: '127.0.0.1:8081'
 spring:
   artemis:
     user: 'artemis'
     password: 'simetraehcapa'
 order:
   changed:
-    queue: 'order-changed'
+    queue: order-changed
