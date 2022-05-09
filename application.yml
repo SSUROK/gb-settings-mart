@@ -4,7 +4,7 @@ gb.api:
     category-url: 'http://${gb.api.endpoint.base-uri}/api/v1/category'
     product-url: 'http://${gb.api.endpoint.base-uri}/api/v1/product'
     user-url: 'http://${gb.api.endpoint.login-sigin}/api/v1/user'
-    auth-url: 'http://${gb.api.endpoint.login-sigin}/api/v1/auth'
+    auth-url: 'http://${gb.api.endpoint.login-sigin}/api/v1/auth/login'
   connection:
     connectTimeout: 60 # Seconds
     readTimeout: 10 # Seconds
